@@ -1,0 +1,129 @@
+
+* {
+    box-sizing: border-box;
+    /* background:linear-gradient(to right,rgb(80,18,179,#ff416c)); */
+    
+}
+
+
+.form-container {
+    position: relative;
+    align-items: center;
+    margin-right: 280px;
+    margin-left: 280px;
+    max-height: 700px;
+    padding: 30px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+span{
+    display: block;
+    font-size: 24px;
+    padding: 5px;
+}
+
+a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+    letter-spacing: 3px;
+
+}
+
+button {
+
+    border-radius: 20px;
+    border:1px solid #ff4b2b;
+    background-color: #ff4b2b;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: trasform 80ms ease-in;
+}
+
+form {
+    
+    background-color: #ffffff;
+    align-items: center;
+    padding: 50px;
+    height: 100%;
+    
+    text-align: center;
+    box-shadow: 5px 5px 10px #e7f5ff inset;
+    z-index: 0;
+}
+
+input{
+    background-color: rgb(238, 238, 238);
+    border: none;
+    padding: 12px 15px;
+    margin: 5px ;
+    width: 100%;
+}
+
+
+
+/* FLIP */
+    
+
+.overlay-signin{
+    
+    background: linear-gradient(to right, rgb(50,30,179), #ff416c);
+    position: absolute;
+    text-align: center;
+    padding-top: 40px;
+    top: 80px;
+    margin-left: 500px;
+    height: 500px;
+    width: 420px;
+    border-radius: 30px;
+
+
+}
+
+.overlay-signup{
+    
+    background: linear-gradient(to right, rgb(50,30,179), #ff416c);
+    position:absolute;
+    justify-content: center;
+    width: 400px;
+    top: 80px;
+    right: 500px;
+    height: 500px;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 30px;
+}
+
+.flip{
+    background-color: transparent;
+    border-color: #ffffff;
+    justify-content: center;
+}
+
+
+.social-container {
+    margin: 20px 0;
+}
+
+.social-container a {
+    
+
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.social-container a:hover{
+    background: linear-gradient(to right, rgb(50,30,179), #ff416c);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}

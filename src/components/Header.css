@@ -1,0 +1,47 @@
+
+
+
+.title {
+    display: grid;
+    background: #d0ebff;
+    text-align: left;
+    align-items: baseline;
+    grid-template-columns: 0fr 5fr 0.52fr;
+    padding-right: 2rem;
+    box-shadow: 20px 30px 50px #d0ebff;
+      
+}
+ h1 {
+     color: black; 
+ } 
+
+ .icon{
+     display: inline;
+     height: 2.4rem;
+     width: 3.2rem;
+     float: left;
+ }
+ .logout{
+     height: 2.5rem;
+     font-size: 1rem;
+     text-decoration: none;
+     
+     letter-spacing: 1px;
+     font-weight: bold;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
+    
+ }
+
+ a {
+     text-decoration: none;
+     font-style:italic;
+     color: black;
+     box-shadow: 40px 30px 30px #d0ebff incest;
+ }
+
+ a:hover {
+        color: #c92a2a;
+        transition: 0.3s;
+        
+ }

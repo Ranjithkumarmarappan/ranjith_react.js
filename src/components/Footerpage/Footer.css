@@ -1,0 +1,48 @@
+
+.footer-head {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    background-color: #4dabf7;
+    color: aliceblue;
+    padding: 1rem;
+    align-items: center;
+    border: 2px solid ;
+    box-shadow: 2px solid;
+    
+}
+.fothed {
+    font-size: 4rem;
+}
+#text-size{
+    font-size: 2rem;
+    font-style: italic;
+    color: black;
+}
+
+.comp-list{
+    list-style: none;
+    word-spacing: 0.3rem;
+    font-size: 1.2rem;
+}
+
+.icon {
+     height: 2.4rem;
+     width: 3.2rem;
+}
+.social{
+    height: 2rem;
+    width: 3rem;
+}
+.social-list {
+
+    align-items: center;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 0.1fr);
+}
+
+.social-list-1{
+    margin-left: 20rem;
+}

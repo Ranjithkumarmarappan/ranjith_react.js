@@ -1,0 +1,36 @@
+
+
+.overlay-signin{
+    
+    background: linear-gradient(to right, rgb(50,30,179), #ff416c);
+    position: absolute;
+    text-align: center;
+    padding-top: 60px;
+    top: 155px;
+    margin-left: 300px;
+    height: 500px;
+    width: 420px;
+    border-radius: 30px;
+
+
+}
+
+.overlay-signup{
+    
+    background: linear-gradient(to right, rgb(50,30,179), #ff416c);
+    position:absolute;
+    justify-content: center;
+    width: 400px;
+    top: 150px;
+    right: 330px;
+    height: 500px;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 30px;
+}
+
+.flip{
+    background-color: transparent;
+    border-color: #ffffff;
+    justify-content: center;
+}
